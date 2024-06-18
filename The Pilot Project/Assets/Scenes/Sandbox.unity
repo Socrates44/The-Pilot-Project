@@ -548,13 +548,9 @@ PrefabInstance:
       propertyPath: m_Name
       value: Player Ship
       objectReference: {fileID: 0}
-    - target: {fileID: 1720537581637188736, guid: 0e981c5394185d24198c4e1203311212, type: 3}
-      propertyPath: m_Drag
-      value: 0.25
-      objectReference: {fileID: 0}
-    - target: {fileID: 1720537581637188736, guid: 0e981c5394185d24198c4e1203311212, type: 3}
-      propertyPath: m_Constraints
-      value: 56
+    - target: {fileID: 4116544959837857856, guid: 0e981c5394185d24198c4e1203311212, type: 3}
+      propertyPath: m_PlayOnAwake
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5184277282283321672, guid: 0e981c5394185d24198c4e1203311212, type: 3}
       propertyPath: m_LocalPosition.x
