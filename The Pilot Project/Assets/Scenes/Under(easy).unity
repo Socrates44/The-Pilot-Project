@@ -360,6 +360,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Platform Start
       objectReference: {fileID: 0}
+    - target: {fileID: 8212106466689520674, guid: 588a6b10a159d374da3d074cbe3e6f52, type: 3}
+      propertyPath: m_TagString
+      value: Friendly
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -378,16 +382,24 @@ PrefabInstance:
       value: Obstacle
       objectReference: {fileID: 0}
     - target: {fileID: 3018386368296089361, guid: 7f5f55a20716f5541a6644aca332aec3, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 15.2159
+      objectReference: {fileID: 0}
+    - target: {fileID: 3018386368296089361, guid: 7f5f55a20716f5541a6644aca332aec3, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 29.141424
+      objectReference: {fileID: 0}
+    - target: {fileID: 3018386368296089361, guid: 7f5f55a20716f5541a6644aca332aec3, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3018386368296089361, guid: 7f5f55a20716f5541a6644aca332aec3, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 3.5
+      value: 29.2
       objectReference: {fileID: 0}
     - target: {fileID: 3018386368296089361, guid: 7f5f55a20716f5541a6644aca332aec3, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 0
+      value: 0.35
       objectReference: {fileID: 0}
     - target: {fileID: 3018386368296089361, guid: 7f5f55a20716f5541a6644aca332aec3, type: 3}
       propertyPath: m_LocalRotation.w
@@ -531,6 +543,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Platform End
       objectReference: {fileID: 0}
+    - target: {fileID: 2913281391685511587, guid: 8c3d876e1f85a164ebe85f612debe72a, type: 3}
+      propertyPath: m_TagString
+      value: Finish
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -548,10 +564,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Player Ship
       objectReference: {fileID: 0}
-    - target: {fileID: 4116544959837857856, guid: 0e981c5394185d24198c4e1203311212, type: 3}
-      propertyPath: m_PlayOnAwake
-      value: 0
-      objectReference: {fileID: 0}
+    - target: {fileID: 425604137592139487, guid: 0e981c5394185d24198c4e1203311212, type: 3}
+      propertyPath: mainEngine
+      value: 
+      objectReference: {fileID: 8300000, guid: 974f8df32a4fe8b4d875461c09aa4dbe, type: 3}
     - target: {fileID: 5184277282283321672, guid: 0e981c5394185d24198c4e1203311212, type: 3}
       propertyPath: m_LocalPosition.x
       value: 46.7
